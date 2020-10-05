@@ -92,15 +92,11 @@ class _MapaPageState extends State<MapaPage> {
       ln = double.parse(lt_ln[1]);
       markers.add(
         Marker(
-          width: 100.0,
-          height: 100.0,
+          width: 95.0,
+          height: 95.0,
           point: LatLng(lt, ln),
           builder: (context) =>Container(
-            child: Image.asset(
-              'assets/images/llama.png',
-              width: .5,
-              height: .5,
-            ),
+            child: Image.asset('assets/images/llama.png'),
           )
         )
       );
