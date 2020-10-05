@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.location_on, color: Colors.white,),
             title: Text(
-              'Incendio',
+              'Incendios',
               style: TextStyle(
                 color: Colors.white
               ),
