@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
           colors:[Colors.red,Colors.orange,Colors.yellow] ,
           begin: Alignment.bottomCenter,
           end: Alignment.bottomRight,
-          transform: 
+          
         )
       ),
       child: BottomNavigationBar(
