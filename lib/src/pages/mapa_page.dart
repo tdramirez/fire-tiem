@@ -16,6 +16,7 @@ class _MapaPageState extends State<MapaPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color.fromARGB(225, 0, 0, 0),
         title: Text('Mapa'),
         actions: <Widget>[
           IconButton(
@@ -96,7 +97,7 @@ class _MapaPageState extends State<MapaPage> {
           point: LatLng(lt, ln),
           builder: (context) =>Container(
             child: Image.asset(
-              'assets/images/fire-icon.png',
+              'assets/images/llama.png',
               width: .5,
               height: .5,
             ),
