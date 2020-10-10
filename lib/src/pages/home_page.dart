@@ -1,3 +1,4 @@
+import 'package:fire_team/src/pages/camara_page.dart';
 import 'package:fire_team/src/pages/mapa_page.dart';
 import 'package:flutter/material.dart';
 import 'package:fire_team/src/pages/direcciones_page.dart';
@@ -23,7 +24,7 @@ class _HomePageState extends State<HomePage> {
   Widget _callPage(int paginaActual){
     switch (paginaActual){
       case 0 : return MapaPage();
-      case 1 : return DireccionPage();
+      case 1 : return CamarPage();
       
       default: return MapasPage();
     }
@@ -49,7 +50,7 @@ class _HomePageState extends State<HomePage> {
         },
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.location_on, color: Colors.white,),
+            icon: Icon(Icons.map, color: Colors.white,),
             title: Text(
               'Incendios',
               style: TextStyle(
